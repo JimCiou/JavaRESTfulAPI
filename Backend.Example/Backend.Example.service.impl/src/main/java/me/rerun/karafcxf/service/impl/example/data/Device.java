@@ -3,28 +3,28 @@ package me.rerun.karafcxf.service.impl.example.data;
 public class Device {
 
 	//基本變數
-	String deviceID;
+	private String deviceID;
 	//位置變數
-	String lat;
-	String lng;
-	String time;
-	String locationType;
-	String locationID;
+	private String lat;
+	private String lng;
+	private String time;
+	private String locationType;
+	private String locationID;
 	//心跳包常用變數
-	String voltageLevel;
-	String gsmLevel;
-	String deviceStatus;
+	private String voltageLevel;
+	private String gsmLevel;
+	private String deviceStatus;
 	//APP常用變數
-	String timezone;
-	String deviceName;
-	String devicePhoneNumber;
-	String deviceModel;
-	String language;
-	String imsi;
+	private String timezone;
+	private String deviceName;
+	private String devicePhoneNumber;
+	private String deviceModel;
+	private String language;
+	private String imsi;
 	//管理變數
-	String socket;
-	String adaptorID;
-	String registered;
+	private String socket;
+	private String adaptorID;
+	private String registered;
 
 	//Constructor
 	public Device(String deviceID){this.deviceID=deviceID;}
