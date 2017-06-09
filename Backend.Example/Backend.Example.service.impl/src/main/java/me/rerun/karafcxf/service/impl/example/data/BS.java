@@ -3,10 +3,10 @@ package me.rerun.karafcxf.service.impl.example.data;
 public class BS {
 
 	//基本變數
-	String stationID;
+	private String stationID;
 	//位置變數
-	String lat;
-	String lng;
+	private String lat;
+	private String lng;
 
 	//Constructor
 	public BS(String stationID){this.stationID=stationID;}
